@@ -8,8 +8,8 @@ body {
 }
 
 .mainImageBG{
-  background-image: url('/me.jpg');
-  /* min-height: 50%; */
+  background-image: url('/k.jpg');
+  min-height: 50%;
 }
 
 .ptext{
@@ -67,4 +67,41 @@ body {
 
 .linksBar a:hover{
   background-color: whitesmoke;
+}
+
+.section{ 
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.section-light{
+  background-color: rgb(233, 186, 129);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url(floral.jpg);
+  opacity: 0.8;
+  color: white;
+}
+
+.section-dark{
+  background-color: blanchedalmond;
+  background-image: url(floral.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 120px 80px;
+  opacity: 0.9;
+  color:whitesmoke;
+}
+
+.section .textBox{
+  background:bisque;
+  color:black;
+  padding: 10px 100px; 
+}
+
+
+@media(mac-width: 58px){
+  .mainImageBG,.image2,.image3,.image4{
+      background-attachment: scroll;
+  }
 }
