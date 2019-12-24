@@ -1,4 +1,4 @@
-body {
+body, html{
   margin: 0;
   height: 100%;
   font-family: 'Libre Baskerville', serif;
@@ -8,8 +8,23 @@ body {
 }
 
 .mainImageBG{
-  background-image: url('/k.jpg');
+  /* background-image: url('/me.jpg'); */
   min-height: 50%;
+}
+
+.image2{
+  /* background-image: url("/me.jpg"); */
+  min-height: 50%;
+}
+
+.image3{
+  background-image: url("/me.jpg");
+  min-height: 50%;
+}
+
+.image4{
+  background-image: url("/k.jpg");
+  min-height: 80%;
 }
 
 .ptext{
@@ -75,18 +90,13 @@ body {
 }
 
 .section-light{
-  background-color: rgb(233, 186, 129);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-image: url(floral.jpg);
+  background-color:#B298DC;
   opacity: 0.8;
   color: white;
 }
 
 .section-dark{
-  background-color: blanchedalmond;
-  background-image: url(floral.jpg);
-  background-repeat: no-repeat;
+  background-color: #B298DC;
   background-size: 100%;
   padding: 120px 80px;
   opacity: 0.9;
