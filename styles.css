@@ -109,6 +109,31 @@ body, html{
   padding: 10px 100px; 
 }
 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  width: 100%;
+  background-color: #B298DC;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer > a { 
+  transition: all 0.3s ease;
+  color:black;
+  font-size: 36px;
+  opacity: .5;
+  padding: 12px 12px 12px 12px; 
+}
+
+.footer a:hover{
+  background-color: whitesmoke;
+}
 
 @media(mac-width: 58px){
   .mainImageBG,.image2,.image3,.image4{
