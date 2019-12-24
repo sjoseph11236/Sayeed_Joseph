@@ -8,22 +8,22 @@ body, html{
 }
 
 .mainImageBG{
-  /* background-image: url('/me.jpg'); */
-  min-height: 50%;
+  background-image: url('/me.jpg');
+  min-height: 80%;
 }
 
 .image2{
-  /* background-image: url("/me.jpg"); */
+  background-image: url("/k.jpg");
   min-height: 50%;
 }
 
 .image3{
-  background-image: url("/me.jpg");
+  background-image: url("/Try\ 2.png");
   min-height: 50%;
 }
 
 .image4{
-  background-image: url("/k.jpg");
+  /* background-image: url("/k.jpg"); */
   min-height: 80%;
 }
 
@@ -117,7 +117,7 @@ body, html{
   color: white;
   text-align: center;
   width: 100%;
-  background-color: #B298DC;
+  background-color: #EFCEFA;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
